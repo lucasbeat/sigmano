@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 100%;
+}
+
+.input {
+    height: 1.7rem;
+    width: 22rem;
+    text-decoration: none;
+}
+
+.button {
+    height: 1.7rem;
+    width: 5rem;
+    border-radius: 0 3px 3px 0;
+}

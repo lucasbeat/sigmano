@@ -1,0 +1,31 @@
+:root {
+    --white:#ffffff;
+    --black: #181824;
+    --light-gray:#ECECF0;
+    --dark-gray:#3A3A45;
+    --blue:#1199DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button {
+    background-color: var(--blue);
+    cursor: pointer;
+    border: none;
+}
